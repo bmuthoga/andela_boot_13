@@ -25,7 +25,7 @@ iterator = twitter_stream.statuses.sample()
 # Here we set it to stop after getting 1000 tweets.
 # You don't have to set it to stop, but can continue running
 # the Twitter API to collect data for days or even longer.
-tweet_count = 1000
+tweet_count = 20
 for tweet in iterator:
     tweet_count -= 1
     # Twitter Python Tool wraps the data returned by Twitter
